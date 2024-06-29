@@ -1,2 +1,12 @@
 @import './base.css';
 
+.mini-menu-leave-active,
+.mini-menu-enter-active {
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.25, 1.35);
+}
+
+.mini-menu-enter-from,
+.mini-menu-leave-to {
+  transform: scale(0);
+  opacity: 0;
+}
