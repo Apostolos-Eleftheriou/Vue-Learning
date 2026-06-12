@@ -11,10 +11,10 @@ const handleChange = (e) => {
         <input type="radio" name="show" value="all" checked @change="handleChange">
         <span class="whitespace-nowrap ml-1">Show All</span>
     </label>
-    <label class="flex mr-4 items-center flex-nowrap">
+    <!-- <label class="flex mr-4 items-center flex-nowrap">
         <input type="radio" name="show" value="today" @change="handleChange">
         <span class="whitespace-nowrap ml-1">Due Today</span>
-    </label>
+    </label> -->
     <label class="flex mr-4 items-center flex-nowrap">
         <input type="radio" name="show" value="past" @change="handleChange">
         <span class="whitespace-nowrap ml-1">Past Due</span>
